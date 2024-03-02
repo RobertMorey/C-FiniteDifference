@@ -139,7 +139,7 @@ int main() {
     // Interpolation
     float result = leftweight * grid[index][0] + rightweight * grid[index+1][0];
     
-    cout << "Option Price: " << result << "\n" << endl;
+    cout << "Option price for '" << type << "' '" << direction << "': " << result << "\n" << endl;
     
     return 0;
 }
